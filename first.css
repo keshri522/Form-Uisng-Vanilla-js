@@ -1,0 +1,70 @@
+label {
+  display: inline-block;
+  min-width: 5rem;
+  color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  min-width: 20rem;
+  padding: 3px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(233, 228, 238);
+}
+span {
+  color: white;
+}
+body {
+  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.first {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE2OTU5ODY1NjB8MA&ixlib=rb-4.0.3");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: hsl(100, 80%, 50%); */
+  box-shadow: 0px 0px 3px 4px rgb(100, 95, 95);
+  min-width: 50%;
+  border-radius: 1rem;
+  transition: all ease-in-out 0.5s;
+  padding: 10px;
+}
+.first:hover {
+  transform: scale(1.1);
+}
+::placeholder {
+  text-align: center;
+  color: white;
+}
+
+button {
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(red, blue, green);
+  transition: all ease-in-out 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+h4 {
+  color: white;
+  text-shadow: 0px 0px 2px red;
+}
+@media screen and (max-width: 700px) {
+  label {
+    display: block;
+    width: 100%;
+    margin: 3px;
+    padding: 3px;
+    font-family: monospace;
+  }
+}
